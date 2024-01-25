@@ -13,16 +13,17 @@ else :
         while  n >i:
             if n%i ==0:
                 y = 0
+                break
                 
             else:
                 y = 1
             i+=1    
 
-    if y ==1 :
-        print(" prime number")
+    if y ==0 :
+        print("not prime number")
 
     else :
-        print("not prime number")  
+        print("prime number")  
 
 
 
